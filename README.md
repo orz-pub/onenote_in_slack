@@ -1,2 +1,2 @@
-# onenote_linker
-for chrome user
+# onenote_in_slack
+- 슬랙에서 링크 클릭시 자동으로 원노트 페이지를 열어주는 프로그램
