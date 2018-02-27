@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" charset="utf-8">
+        function post(path, params, method) {
+            var newPath = path;
+
+            if (navigator.userAgent.toLowerCase().indexOf("chrome") != -1) {
+                newPath = path.replace("onenote:///", "onenotelinker:///");
+            }
+            else {
+            }
+
+            method = method || "post";
+
+            var form = document.createElement("form");
+            form.setAttribute("method", method);
+            form.setAttribute("action", newPath);
+            for (var key in params) {
+                if (params.hasOwnProperty(key)) {
+                    var hiddenField = document.createElement("input");
+                    hiddenField.setAttribute("type", "hidden");
+                    hiddenField.setAttribute("name", key);
+                    hiddenField.setAttribute("value", params[key]);
+
+                    form.appendChild(hiddenField);
+                }
+            }
+
+            document.body.appendChild(form);
+            form.submit();
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <a href="onenote:///Z:\Onenote\프로젝트YUKI\ProjectYUKI\YUKI 회의록.one#2018.02.20 구현 회의§ion-id={B2F1F6C3-7FDC-4304-BA1A-34FE419DD409}&page-id={2F3E3CCA-1133-4D0F-805A-3CCE7D58B874}&end">
+            여기
+        </a>
+    </div>
+        <script type="text/javascript">
+            //post('onenote:///Z:\\Onenote\\ATR\\ATR\\IOLogger on AWS.one', {});
+            post('onenote:///Z:\Onenote\프로젝트YUKI\ProjectYUKI\YUKI 회의록.one#2018.02.20 구현 회의§ion-id={B2F1F6C3-7FDC-4304-BA1A-34FE419DD409}&page-id={2F3E3CCA-1133-4D0F-805A-3CCE7D58B874}&end', {});
+            //post("onenote:///Z:/Onenote/프로젝트YUKI/ProjectYUKI/YUKI 회의록.one", {});
+            //window.location.href = 'onenote:///Z:\\Onenote\\ATR\\ATR\\IOLogger on AWS.one';
+            //window.location.href = 'onenote:///Z:\\Onenote\\프로젝트YUKI\\ProjectYUKI\\YUKI 회의록.one';
+        </script>
+</body>
+</html>
