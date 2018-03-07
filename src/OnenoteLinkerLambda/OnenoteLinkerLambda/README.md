@@ -1,7 +1,7 @@
 # OnenoteLinkerLambda
 
 ## 개요
-> ### 슬래시 명령을 받아서 원노트 링크를 만들고, 링크를 클릭하면 브라우저로 실행시킨다
+> ### 슬래시 명령을 받아서 원노트 링크를 만들고 클릭하면 브라우저로 실행시킨다
 
 ## API Gateway 설정
 ### POST 메서드 생성
@@ -50,11 +50,11 @@
         - `Content-Type`에 `text/html`를 넣고 값에는 `$input.path('$')`를 넣는다
       - [참고](/img/api_gateway_get_integration_response.jpg)
 
-### 람다 설정
-  - 환경 변수
-    - `token`키를 생성하고 슬랙 슬래시 커맨드 토큰 값을 넣는다
-    - `get_url`키를 생성하고 apigateway의 GET url 뒤에 `?link=`를 붙여 넣는다
-    - 예) `https://ADDR.execute-api.ap-northeast-2.amazonaws.com/STAGE/PATH/RESOURCE?link=`
+## 람다 설정
+### 환경 변수
+  - `token`키를 생성하고 슬랙 슬래시 커맨드 토큰 값을 넣는다
+  - `get_url`키를 생성하고 apigateway의 GET url 뒤에 `?link=`를 붙여 넣는다
+  - 예) `https://ADDR.execute-api.ap-northeast-2.amazonaws.com/STAGE/PATH/RESOURCE?link=`
 
 ## Slack Slash-Command 설정
 ### 슬래시 명령어(Slash-Command)를 생성
