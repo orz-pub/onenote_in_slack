@@ -16,4 +16,4 @@
 		- 레지스트리 등록 필요
 
 ## 구조
-![image_structure](doc/structure.jpg)
+![image_structure](img/structure.jpg)
