@@ -40,6 +40,7 @@
           }
           ```
           - `token`은 슬랙의 슬래시 커맨드 설정 페이지에 있는 토큰 값을 넣는다
+      - [참고](/img/api_gateway_get_integration_request.jpg)
     - 통합 응답
       - 헤더 매핑
         - 응답 헤더에 `Content-Type`, 매핑 값에 `'text/html'`
