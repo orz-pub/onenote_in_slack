@@ -46,7 +46,7 @@ exports.handler = function (event, context, endLambda) {
 
     console.log('[create] link=' + getParam);
 
-    var url = 'https://gakzybgm45.execute-api.ap-northeast-2.amazonaws.com/v1/onenote-linker/go?link=' + getParam;
+    var url = process.env.get_url + getParam;
     var finalLink = `[${nowStr}] *<${url}|${linkText}>*` + ` (by ${event.user_name})`;
 
     var response = {
