@@ -17,3 +17,6 @@
 
 ## 구조
 ![image_structure](img/structure.jpg)
+
+## 참고
+- ### **경로(Z:/)에 종속적인 코드들은 확인하고 작업해야 한다**
