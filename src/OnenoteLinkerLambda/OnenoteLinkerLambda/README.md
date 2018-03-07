@@ -1,7 +1,7 @@
 # OnenoteLinkerLambda
----
+
 ## 개요
-> ### Slack Slash-Command 를 받아서 원노트 링크를 만들고, 링크를 클릭하면 브라우저로 실행시킨다
+> ### 슬래시 명령을 받아서 원노트 링크를 만들고, 링크를 클릭하면 브라우저로 실행시킨다
 
 ## API Gateway 설정
 ### POST 메서드 생성
