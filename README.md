@@ -10,7 +10,8 @@
 	- #### AWS Lambda
 	- #### AWS ApiGateway 와 연동
 	- #### 링크를 만드는 부분과 링크를 실행하는 부분으로 나뉜다
-- ### [OnenoteLinker.exe](/src/OnenoteLinker/README.md)
+- ### [OnenoteLinker](/src/OnenoteLinker/README.md)
+	- 콘솔 EXE
 	-	크롬이 onenote:// 경로에 있는 한글 등을 %인코딩해서 원노트로 전달하도록 패치되서 주소를 찾지 못한다
 	- OnenoteLinker.exe 를 경유하도록 바꿔서 디코딩한 경로로 바꾼다
 		- 레지스트리 등록 필요
