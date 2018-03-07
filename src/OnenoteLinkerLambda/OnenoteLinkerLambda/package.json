@@ -1,0 +1,12 @@
+{
+  "name": "onenote-linker",
+  "version": "0.0.0",
+  "description": "OnenoteLinker",
+  "main": "app.js",
+  "author": {
+    "name": "jungwkim"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

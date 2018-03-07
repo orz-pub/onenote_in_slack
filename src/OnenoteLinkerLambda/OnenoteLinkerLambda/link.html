@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>new onenote link page</title>
+    <script>
+        function loaded()
+        {
+            window.setTimeout(closeMe, 5000);
+        }
+
+        function closeMe() 
+        {
+            window.close();
+        }
+    </script>
+</head>
+<body onLoad="loaded()">
+    <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            </div>
+        </nav>
+        <div class="well">
+            <script type="text/javascript">
+                window.setTimeout(function () {
+                    window.location.href = '$REPLACE_THIS_STRING_WITH_LINK$';
+                },
+                    1000);
+            </script>
+        </div>
+        <div class="container">
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿{
+  "localtest": true,
+  "token": "Fz3S46IdAl0GzfBuCqd3SqC9",
+  "team_id": "T03M0HCDA",
+  "team_domain": "iostudio",
+  "channel_id": "D1KKSJB8X",
+  "channel_name": "directmessage",
+  "user_id": "U03MH5M0W",
+  "user_name": "kim_jungwoo",
+  "command": "/onenote",
+  "text": "onenote:///Z:\\Onenote\\스튜디오\\회의록.one#2017.1128%20매니저%20회의&section-id={D59E9F7A-BD0D-4D02-A9C1-8E640C392154}&page-id={EB322032-B37D-4798-9623-B6335DC30846}&end",
+  "response_url": "https://hooks.slack.com/commands/T03M0HCDA/242545796692/yDeRPRap8lROX0B40YHQJY6x"
+}

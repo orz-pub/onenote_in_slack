@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "OnenoteLinkerLambda", "OnenoteLinkerLambda\OnenoteLinkerLambda.njsproj", "{ED59AA73-AF98-4E48-86F9-27E7C736DD0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED59AA73-AF98-4E48-86F9-27E7C736DD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED59AA73-AF98-4E48-86F9-27E7C736DD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED59AA73-AF98-4E48-86F9-27E7C736DD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED59AA73-AF98-4E48-86F9-27E7C736DD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E05EDA82-1CE3-423D-A420-7B1679193A0C}
+	EndGlobalSection
+EndGlobal
