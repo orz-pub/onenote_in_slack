@@ -54,10 +54,10 @@
 ### 환경 변수
   - `token`키를 생성하고 슬랙 슬래시 커맨드 토큰 값을 넣는다
   - `get_url`키를 생성하고 apigateway의 GET url 뒤에 `?link=`를 붙여 넣는다
-  - 예) `https://ADDR.execute-api.ap-northeast-2.amazonaws.com/STAGE/PATH/RESOURCE?link=`
+  - 예) `https://STRING.execute-api.ap-northeast-2.amazonaws.com/STAGE/PATH/RESOURCE?link=`
 
 ## Slack Slash-Command 설정
 ### 슬래시 명령어(Slash-Command)를 생성
   - URL에 apigateway의 POST 배포 주소를 적는다
-  - METHOD는 POST
-  - 여기에 있는 `Token`값을 위에서 사용하는 것
+  - METHOD는 POST 선택
+  - **여기의 Token값을 위에서 사용**
